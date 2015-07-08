@@ -8,6 +8,7 @@
 
 namespace ManifestoContext;
 
+use Behat\Mink\Exception\ElementNotFoundException;
 use Behat\Testwork\Tester\Result\TestResult;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\MinkExtension\Context\RawMinkContext;
