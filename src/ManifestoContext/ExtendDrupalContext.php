@@ -105,7 +105,7 @@ class ExtendDrupalContext extends RawDrupalContext implements SnippetAcceptingCo
   */
   public function assertLoggedInByNameAndPass($name,$pass,$role = 'authenticated user') {
 
-    $this->user = new stdClass();
+    $this->user = new \stdClass();
     //username
     $this->user->name = $name;
     //pass
