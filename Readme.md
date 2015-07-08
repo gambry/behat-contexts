@@ -24,8 +24,8 @@ jQuery( ":contains('element')" ).click()
 
 It tries to create a unique value to be submitted, appending some random data to the specified value
 
->I select "<option>" from "<select>" with javascript
->I check "<checkbox>/<label>" with javascript
+>I select "option" from "select" with javascript
+>I check "checkbox/label" with javascript
 
 Selects/Checks elements with javascript, avoiding selenium2d errors about element not being available
 and it's also form-elements-javascript-libraries friendly (Chosen.js, Bootstrap, customSelect, etc.) [requires javascript api]
