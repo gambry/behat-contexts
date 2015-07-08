@@ -3,6 +3,12 @@
 This package extends the basic contexts and step definitions provided with Mink and Drupal contexts.
 Additionally creates an HTML dump and a Screenshot on a failure, make debugging easier.
 
+##How to Install
+composer require gambry/behat-contexts:*
+composer update
+
+
+##How to use
 
 You'll find these additional definitions:
 
