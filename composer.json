@@ -8,6 +8,7 @@
       "email": "gabriele.maira@manifesto.co.uk"
     }
   ],
+  "license": "GPL-2.0"
   "minimum-stability": "dev",
   "require": {
     "drupal/drupal-extension": "3.0.*",
