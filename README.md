@@ -1,6 +1,8 @@
 #Behat Additional Contexts
 
 This package extends the basic contexts and step definitions provided with Mink and Drupal contexts.
+Additionally creates an HTML dump and a Screenshot on a failure, make debugging easier.
+
 
 You'll find these additional definitions:
 
@@ -47,7 +49,8 @@ and it's also form-elements-javascript-libraries friendly (Chosen.js, Bootstrap,
 
 Due [this issue](https://github.com/jhedstrom/drupalextension/pull/131) if you don't have a Logout link on the homepage
 Drupal Driver doens't understand if the user is loggedin or not. These definitions fix that problem giving you the possibility
-to define the path where the driver can find the Logout link: define the constant BDD_DRUPAL_LOGGEDIN_PATH in order to set your custom path (i.e.: "/user")
+to define the path where the driver can find the Logout link: define the constant *BDD_DRUPAL_LOGGEDIN_PATH* in order to set your
+custom path (i.e.: "/user", default is "/")
 
 
 >I am logged in as :name with password :pass
@@ -62,3 +65,6 @@ It logs in the specific user with his/her specific password
 Using Fields Dependencies or Form API states some elements are visible only after certain conditions.
 These definitions check the visibility of the element. [requires javascript api]
 
+
+###HTML dump and Screenshot
+To define the path for **dumps/** and **screenshots/** folders define the constant *BDD_REPORT_PATH* (default "./")

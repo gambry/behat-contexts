@@ -29,7 +29,7 @@ protected $reports_path;
 
         $this->reports_path = (defined('BDD_REPORT_PATH'))
             ? BDD_REPORT_PATH
-            : '/vagrant/tests/reports/';
+            : './';
 
     }
 
