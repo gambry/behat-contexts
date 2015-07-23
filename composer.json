@@ -1,6 +1,6 @@
 {
 
-  "name": "gambry/behat-contexts",
+  "name": "manifesto/behat-contexts",
   "description": "Extension for Mink/Drupal contexts",
   "authors": [
     {
